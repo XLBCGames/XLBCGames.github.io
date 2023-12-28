@@ -3,7 +3,7 @@ window.onload = function() {
     var videoElement = document.getElementById('rtmp-player');
     var flvPlayer = flvjs.createPlayer({
       type: 'flv',
-      url: 'rtmp://your-rtmp-stream-url'
+      url: 'rtmp://frp-man.top:12117/live'
     });
     flvPlayer.attachMediaElement(videoElement);
     flvPlayer.load();
